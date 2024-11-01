@@ -1,0 +1,473 @@
+/* This is frontend css */
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: 0; 
+}
+ 
+.item-description {
+	font-size: 14px !important;
+	padding-top: 14px !important;
+	letter-spacing: 0.115px !important;
+	word-spacing: -0.5px !important;
+}
+.btn {
+	border: 1px solid #cccccc !important;
+	border-radius: 0px !important;
+	color: #f15b5d !important;
+	font-size: .8125em !important;
+	margin-top: 10px !important;
+	padding: 7px 20px !important;
+	position: relative !important;
+	overflow: hidden !important;
+
+	-webkit-transition: all 0.25s ease !important;
+	-moz-transition: all 0.25s ease !important;
+	-ms-transition: all 0.25s ease !important;
+	-o-transition: all 0.25s ease !important;
+	transition: all 0.25s ease !important;
+}
+.btn:hover {
+	background: #f15b5d !important;
+	border-color: #f15b5d !important;
+	color: #ffffff !important;
+}
+/*.pricing-tables {
+	padding: 120px 0px;
+}*/
+.bottom-style {
+	margin: 0 auto !important;
+	position: relative !important;
+	width: 100px !important;
+}
+.bottom-style:before {
+	content: '' !important;
+	position: absolute !important;
+	border-bottom: 1px solid #cccccc !important;
+	width: 60px !important;
+	left: 50% !important;
+	margin-left: -30px !important;
+	bottom: 0px !important;
+}
+.bottom-style:after,
+.bottom-style span:before {
+	content: '' !important;
+	position: absolute !important;
+	background: #f15b5d !important;
+	height: 5px !important;
+	width: 20px !important;
+	bottom: -2px !important;
+}
+.bottom-style:after {
+	left: 0 !important;
+}
+.bottom-style span:before {
+	right: 0 !important;
+}
+.section-title {
+	font-size: 1.625em !important;
+	font-weight: 300 !important;
+	text-transform: uppercase !important;
+}
+.section-description {
+	color: #808080 !important;
+	font-size: 1.05em !important;
+	font-weight: 300 !important;
+	padding-top: 7px !important;
+	margin: 0px !important;
+	padding-bottom: 22px !important;
+	text-transform: capitalize !important;
+}
+.planning-area {
+	overflow: auto !important;
+/*	padding-top: 60px;*/
+}
+.plan-name {
+	font-size: 1.125em !important;
+	font-weight: 400 !important;
+	margin: 0 !important;
+	padding: 17px 0px !important;
+	text-transform: uppercase !important;
+}
+
+/* 3. -------- Pricing Tables Style ---------*/
+
+/*3.1 ------- Format-1 -------*/
+.format-1 .item {
+	background: #ffffff !important;
+	overflow: auto !important;
+
+	-webkit-transition: all .35s  ease-out !important;
+	-moz-transition: all .35s  ease-out !important;
+	-ms-transition: all .35s  ease-out !important;
+	-o-transition: all .35s  ease-out !important;
+	transition: all .35s  ease-out !important;
+}
+.format-1 .item .plan-name {
+	color: #ffffff !important;
+}
+.format-1 .cyan .plan-name {
+	background: #55c4da !important;
+}
+.format-1 .orange .plan-name {
+	background: #d9a255 !important;
+}
+.format-1 .green .plan-name {
+	background: #97d955 !important;
+}
+.format-1 .purple .plan-name {
+	background: #c355d9 !important;
+}
+.format-1 .gray .plan-name {
+	background: #808080 !important;
+}
+.format-1 .plan-cost {
+	color: #ffffff !important;
+	padding-bottom: 13px !important;
+}
+.format-1 .cyan .plan-cost {
+	background: #69d2e7 !important;
+}
+.format-1 .orange .plan-cost {
+	background: #e8b368 !important;
+}
+.format-1 .green .plan-cost {
+	background: #a8e868 !important;
+}
+.format-1 .purple .plan-cost {
+	background: #d368e8 !important;
+}
+.format-1 .gray .plan-cost {
+	background: #8c8c8c !important;
+}
+.format-1 .cost {
+	font-size: 3.43em !important;
+	font-weight: 600 !important;
+}
+.cent,
+.duration {
+	position: relative !important;
+}
+.duration {
+	padding-left: 15px !important;
+	text-transform: lowercase !important;
+}
+.cent:before,
+.duration:before {
+	position: absolute !important;
+	left: 0px !important;
+	top: 0px !important;
+}
+.cent:before {
+	content: '.' !important;
+	left: -5px !important;
+}
+.duration:before {
+	content: "/" !important;
+
+	-webkit-transform: rotate(-55deg) !important;
+	-moz-transform: rotate(-55deg) !important;
+	-ms-transform: rotate(-55deg) !important;
+	-o-transform: rotate(-55deg) !important;
+	transform: rotate(-55deg) !important;
+}
+.plan-details li {
+	display: block !important;
+	padding: 20px 20px !important;
+	margin: 0 !important !important;
+	position: relative !important;
+}
+.plan-details li:before {
+	content: '' !important;
+	width: 144px !important;
+	height: 1px !important;
+	background: #ecf0f1 !important;
+	bottom: 0px !important;
+	left: 50% !important;
+	margin-left: -72px !important;
+	position: absolute !important;
+}
+.plan-details p {
+	display: inline-block !important;
+	margin: 0px !important;
+}
+.plan-bottom {
+	padding: 20px !important;
+}
+.plan-bottom .btn {
+	margin: 0px !important;
+}
+
+/*3.2 ------ Format-2 -------*/
+
+.pricing-tables .format-2 {
+	background: #ecf0f1 !important;
+	overflow: auto !important;
+	text-align: center !important;
+	padding: 15px !important;
+}
+.format-2 .item {
+	background: #ffffff !important;
+
+	-webkit-transition: all .35s  ease-out !important;
+	-moz-transition: all .35s  ease-out !important;
+	-ms-transition: all .35s  ease-out !important;
+	-o-transition: all .35s  ease-out !important;
+	transition: all .35s  ease-out !important;
+}
+.format-2 .plan-name,
+.format-3 .plan-name {
+	font-size: 1.43em !important;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
+	padding-top: 55px !important;
+}
+.format-2 .plan-description {
+	font-size: .93em !important;
+	font-weight: 400 !important;
+	padding-bottom: 23px !important;
+	padding-top: 10px !important;
+}
+.format-2 .plan-cost  {
+	background: #f15b5d !important;
+	border: 5px solid #f15b5d !important;
+	border-radius: 50% !important;
+	color: #ffffff !important;
+	margin: 0 auto !important;
+	width: 160px !important;
+	height: 160px !important;
+/*	padding-top: 20px !important;*/
+
+	-webkit-transition: all .35s  ease-out !important;
+	-moz-transition: all .35s  ease-out !important;
+	-ms-transition: all .35s  ease-out !important;
+	-o-transition: all .35s  ease-out !important;
+	transition: all .35s  ease-out !important;
+}
+.format-2 .item:hover .plan-cost {
+	background: #ffffff !important;
+	border: 3px solid #f15b5d !important;
+	color: #f15b5d !important;
+}
+.format-2 .currency {
+	font-size: 1.43em !important;
+	font-weight: 800 !important;
+}
+.format-2 .cost {
+	font-size: 3.8em !important;
+	font-weight: 800 !important;
+}
+.format-2 .duration {
+	padding-left: 0px !important;
+	text-transform: capitalize !important;
+}
+.format-2 .duration:before {
+	content: '' !important;
+}
+.format-2 .plan-details {
+	padding-top: 20px !important;
+}
+.format-2 .plan-details li {
+	padding: 8px 20px !important;
+}
+.plan-details ul li span {
+	display: inline-block !important;
+	font-size: .875em !important;
+	color: #737373 !important;
+}
+.format-2 .btn,
+.format-3 .btn {
+	background: #f15b5d !important;
+	border-color: #f15b5d !important;
+	color: #ffffff !important;
+	font-size: 1em !important;
+	padding: 13px 40px !important;
+}
+.format-2 .btn:hover,
+.format-3 .btn:hover {
+	background: #ffffff !important;
+	color: #f15b5d !important;
+} 
+
+
+/* 4 ======= RESPONSIVE STYLES ==========*/
+
+@media screen and (min-width: 1024px) and (max-width: 1169px) { 
+    .pricing-tables .format-2 {
+        padding: 30px !important;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1024px) { 
+
+    .format-3 .cyan .title {
+        font-size: 1.15em !important;
+        padding: 29px 25px 29px 25px !important;
+    }
+    .format-3 .cyan li { padding: 20px 10px !important; }
+}
+@media screen and (min-width: 901px) and (max-width: 992px) { 
+    .plan-details p {
+        letter-spacing: 0px !important;
+        line-height: 23px !important;
+    }
+    .format-3 .cyan .plan-details li:before {
+        left: 0px !important;
+    }
+    .plan-details li { padding: 5px !important; }
+    .format-1 .cost { font-size: 2.35em !important; }
+    .format-2 .cost,
+    .format-3 .cost { font-size: 2.5em !important; }
+    .pricing-tables .format-2 { padding: 20px !important; }
+    .format-2 .plan-cost {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .pricing-tables .format-2 .btn { padding: 12px 35px !important; }
+    .planning-area .format-3 { /*padding: 15px 25px */}
+    .format-3 .cyan .title {
+        font-size: 1.15em !important;
+        padding: 19px 15px 18px 15px !important;
+    }
+    .format-2 .plan-name, .format-3 .plan-name {
+        font-size: 1.25em !important;
+    }
+    .format-3 .cyan li { padding: 4px 5px !important; }
+    .format-2 .btn,
+    .format-3 .btn { 
+        font-size: .875em !important;
+        padding: 10px 20px !important;
+    }
+    .format-3 .cyan .plan-bottom { padding: 70px 0px !important; }
+}
+@media screen and (min-width: 861px) and (max-width: 900px) { 
+    .plan-details p {
+        letter-spacing: 0px !important;
+        line-height: 23px !important;
+    }
+    .format-3 .cyan .plan-details li:before {
+        left: 0px !important;
+    }
+    .plan-details li { padding: 5px !important; }
+    .format-1 .cost { font-size: 2.35em !important; }
+    .format-2 .cost,
+    .format-3 .cost { font-size: 2.5em !important; }
+    .pricing-tables .format-2 { padding: 20px !important; }
+    .format-2 .plan-cost {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .pricing-tables .format-2 .btn { padding: 12px 35px !important; }
+    .planning-area .format-3 { /*padding: 15px 25px*/ }
+    .format-3 .cyan .title {
+        font-size: 1.15em !important;
+        padding: 19px 15px 18px 15px !important;
+    }
+    .format-2 .plan-name, .format-3 .plan-name {
+        font-size: 1.25em !important;
+    }
+    .format-3 .cyan li { padding: 4px 5px !important; }
+    .format-2 .btn,
+    .format-3 .btn { 
+        font-size: .875em !important;
+        padding: 10px 20px !important; 
+    }
+    .format-3 .cyan .plan-bottom { padding: 70px 0px !important; }
+}
+@media screen and (min-width: 768px) and (max-width: 860px) { 
+    .plan-details p {
+        letter-spacing: 0px !important;
+        line-height: 23px !important;
+    }
+    .format-3 .cyan .plan-details li:before {
+        left: 0px !important;
+    }
+    .plan-details li { padding: 5px !important; }
+    .format-1 .cost { font-size: 2.35em !important; }
+    .format-2 .cost,
+    .format-3 .cost { font-size: 2.5em !important; }
+    .pricing-tables .format-2 { padding: 20px !important; }
+    .format-2 .plan-cost {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .pricing-tables .format-2 .btn { padding: 12px 35px !important; }
+    .planning-area .format-3 { /*padding: 15px 25px */}
+    .format-3 .cyan .title {
+        font-size: 1.15em !important;
+        padding: 19px 15px 18px 15px !important;
+    }
+    .format-2 .plan-name, .format-3 .plan-name {
+        font-size: 1.25em !important;
+    }
+    .format-3 .cyan li { padding: 4px 5px !important; }
+    .format-2 .btn,
+    .format-3 .btn { 
+        font-size: .875em !important;
+        padding: 10px 20px  !important;
+    }
+    .format-3 .cyan .plan-bottom { padding: 70px 0px !important; }
+    
+}
+@media screen and (min-width: 721px) and (max-width: 767px) { 
+
+    .pricing-tables .format-2 { padding: 15px 30px !important; }
+    .planning-area .format-2 .item { margin: 15px 0px !important; }
+    .pricing-tables .format-3 { padding: 15px 30px !important; }
+    .planning-area .item {
+        margin: 15px 0px !important;
+        vertical-align: text-top !important;
+    }
+    .format-3 .cyan .plan-bottom { display: none !important; }
+    .format-3 .cyan .title { padding: 22px 25px !important; }
+    .format-3 .col-sm-3 {
+        padding: 0px 15px !important;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 720px) { 
+
+    .pricing-tables .format-2 { padding: 15px 30px !important; }
+    .planning-area .format-2 .item { margin: 15px 0px !important; }
+    .pricing-tables .format-3 { padding: 15px 30px !important; }
+    .planning-area .format-3 .item {
+        margin: 15px 0px !important;
+        vertical-align: text-top !important;
+    }
+    .format-3 .cyan .plan-bottom { display: none !important; }
+    .format-3 .cyan .title { padding: 22px 25px !important; }
+    .format-3 .col-sm-3 {
+        padding: 0px 15px !important;
+    }
+}
+
+@media screen and (max-width: 640px) { 
+    .section-description {
+        font-size: .93em !important;
+        padding: 0px 15px 22px 15px !important;
+    }
+    .pricing-tables .format-2 {
+        padding: 30px 0px !important;
+    }
+    .pricing-tables .item {
+        margin: 15px 0px !important;
+        text-align: center !important;
+    }
+    .pricing-tables .col-sm-3,
+    .pricing-tables .col-xs-6 {
+        width: 100% !important;
+        padding: 0px 15px !important;
+    }
+    .format-3 .cyan li:before {
+        left: inherit !important;
+        margin-left: -72px !important;
+    }
+    .format-3 .cyan .plan-name {
+        display: none !important;
+    }
+    .format-3 .cyan .plan-bottom {
+        padding: 45px 0px !important;
+    }
+    .planning-area .format-3 {
+        padding: 20px !important;
+    }
+}
